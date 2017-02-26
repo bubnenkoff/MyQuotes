@@ -1,0 +1,143 @@
+   html,
+    body {
+      height: 100%;
+      margin: 0px;
+      background-image: url(bg.png);
+    }
+
+  @media (min-width: 1080px) {  
+    .MainContainer {
+      background-color: #fee9ea;
+      margin-left: 10%;
+      margin-right: 10%;
+      height: 100vh;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+@media (max-width: 1080px) {  
+    .MainContainer {
+      background-color: #fee9ea;
+      margin-left: 0%;
+      margin-right: 0%;
+      height: 100vh;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+    .Header {
+      flex-basis: 40px;
+      background-color: #ede1d3;
+      display: flex;
+      flex-direction: row;
+      border: 1px solid black;
+    }
+
+    .HeaderBlock {
+      border: 1px black solid;
+      flex-basis: 15%;
+      text-align: center;
+      padding: 10px;
+      align-self: center;
+      border: 1px black solid;
+
+    }
+
+    .HeaderBlock:hover{
+      background-color: #e2d0ba;
+    }
+    .Central {
+      display: flex;
+      flex-direction: row;
+      flex-grow: 1;
+    }
+
+    .LeftSide {
+      background-color: #ddd0d1;
+      flex-grow: 8;
+
+    }
+    .RightSide{
+      background-color: #965254;
+      flex-grow: 1;
+    }
+
+    .AuthBlock
+    {
+      background-color: #bb8485;
+      border: 1px black solid;
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+      height: auto;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .AuthInputField
+    {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 90%;
+      padding-top: 5px;
+    }
+
+    .Signin
+    {
+      align-self: flex-end;
+      margin-right: 10px;
+      margin-top: 5px;
+    }
+
+    .LeftSideContent
+    {
+      display: flex;
+      flex-direction: column;
+      /*padding: auto 5px;*/
+      padding-left: 50px;
+    }
+
+    .RandomQuoteBlock
+    {
+      display: flex;
+      flex-direction: row;
+      /*background-color: #ddb8bb;*/
+      background-color: #d1abac;
+      height: 70px;
+      margin: 10px;
+    }
+
+    .SingleContainer
+    {
+      margin-left: 1px;
+      margin-right: 1px;
+      background-color: #e9e0e0;
+    }
+    .SingleContainer:hover
+    {
+      background-color: #e8dfdf;
+    }
+
+    .SingleQuiteBody
+    {
+      border: 1px #d6cdb6 solid;
+      background-color: #ede7e7;
+    }
+    .SingleQuiteBody:hover
+    {
+      background-color: #eae3e3;
+    }
+
+    a 
+    {
+      display: block;
+      color: inherit;
+      text-decoration:none;
+    }

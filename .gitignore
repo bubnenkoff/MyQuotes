@@ -1,0 +1,10 @@
+.dub
+docs.json
+__dummy.html
+*.exe
+*.dll
+*.obj
+__test__*__
+Thumbs.db
+ehthumbs.db
+Desktop.ini
